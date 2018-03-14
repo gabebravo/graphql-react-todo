@@ -1,0 +1,19 @@
+.header-color {
+  background-color: #d35400;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+i {
+  color: #fff;
+  margin-right: 5px;
+}
+
+h1 {
+  color: #34495e;
+}
+
+.add-btn {
+  color: #fff;
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
