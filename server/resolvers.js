@@ -1,7 +1,7 @@
-import mongoose from 'mongoose'
-import Todo from './models/todo'
+const mongoose = require('mongoose');
+const Todo = require('./models/todo');
 
-export const resolvers = {
+const resolvers = {
 
   Query: { 
 
@@ -43,5 +43,5 @@ export const resolvers = {
   }
 }
 
-export default resolvers
+module.exports = resolvers
 

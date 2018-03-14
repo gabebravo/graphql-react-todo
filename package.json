@@ -19,7 +19,7 @@
     "babel-watch": "^2.0.7"
   },
   "scripts": {
-    "server": "babel-watch server/server.js",
-    "test": "jest"
+    "start": "node server/server.js",
+    "server": "babel-watch server/server.js"
   }
 }

@@ -1,5 +1,5 @@
-import uuid from 'node-uuid'
-import mongoose from 'mongoose'
+const uuid = require('node-uuid');
+const mongoose = require('mongoose');
 const schema = mongoose.Schema
 
 const todoSchema = new schema({
@@ -9,4 +9,4 @@ const todoSchema = new schema({
 })
 
 const model = mongoose.model('todo', todoSchema)
-export default model
+module.exports = model
