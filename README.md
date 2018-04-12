@@ -46,9 +46,10 @@ completedTodos: [Todo]
   }
 }
 
-MUTATIONS :
+### MUTATIONS :
 
 addTodo(text: String!): Todo
+
 mutation {
   addTodo(text: "Walk the Dog")
   {
