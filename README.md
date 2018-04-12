@@ -48,8 +48,7 @@ completedTodos: [Todo]
 
 ### MUTATIONS :
 
-addTodo(text: String!): Todo
-
+**addTodo(text: String!): Todo**
 mutation {
   addTodo(text: "Walk the Dog")
   {
@@ -77,7 +76,7 @@ mutation {
   }
 }
 
-markTodoComplete(id: String!): Todo
+**markTodoComplete(id: String!): Todo**
 mutation {
   markTodoComplete(id: "3fbd5720-234c-11e8-9b97-d3265043e8da"){
     id
