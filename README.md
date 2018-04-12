@@ -1,17 +1,17 @@
 # graphql-react-todo
 Full stack Todo app using MongoDB, Mongoose ODM, Express, Apollo GraphQL Server, Apollo Client, and React
-
-### SCHEMA : 
 ```javascript
-Todo {  
-  id: String  
-  text: String  
-  isComplete: Boolean  
-}```
+SCHEMA : 
 
-### QUERIES : 
-```javascript
-todo(id: String): Todo  
+Todo {
+  id: String
+  text: String
+  isComplete: Boolean
+}
+
+QUERIES : 
+
+todo(id: String): Todo
 {
   todo(id: "59520430-233b-11e8-be30-a7fcc3d2da82"){
     text
@@ -46,9 +46,9 @@ completedTodos: [Todo]
   }
 }
 
-### MUTATIONS :
+MUTATIONS :
 
-**addTodo(text: String!): Todo**
+addTodo(text: String!): Todo
 mutation {
   addTodo(text: "Walk the Dog")
   {
@@ -76,7 +76,7 @@ mutation {
   }
 }
 
-**markTodoComplete(id: String!): Todo**
+markTodoComplete(id: String!): Todo
 mutation {
   markTodoComplete(id: "3fbd5720-234c-11e8-9b97-d3265043e8da"){
     id
