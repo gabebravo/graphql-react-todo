@@ -2,11 +2,11 @@
 Full stack Todo app using MongoDB, Mongoose ODM, Express, Apollo GraphQL Server, Apollo Client, and React
 
 ### SCHEMA : 
-
+```javascript
 Todo {  
-id: String  
-text: String  
-isComplete: Boolean  
+  id: String  
+  text: String  
+  isComplete: Boolean  
 }  
 
 ### QUERIES : 
@@ -17,7 +17,7 @@ todo(id: String): Todo
     text
     isComplete
   }
-}```
+}
 
 todos: [Todo]
 {
