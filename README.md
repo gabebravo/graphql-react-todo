@@ -7,7 +7,7 @@ Todo {
   id: String  
   text: String  
   isComplete: Boolean  
-}  
+}```
 
 ### QUERIES : 
 ```javascript
