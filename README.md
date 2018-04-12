@@ -4,9 +4,9 @@ Full stack Todo app using MongoDB, Mongoose ODM, Express, Apollo GraphQL Server,
 ### SCHEMA : 
 
 Todo {  
-- id: String  
-- text: String  
-- isComplete: Boolean  
+-id: String  
+-text: String  
+-isComplete: Boolean  
 }  
 
 ### QUERIES : 
