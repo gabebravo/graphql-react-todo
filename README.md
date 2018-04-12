@@ -11,7 +11,7 @@ Todo {
 
 ### QUERIES : 
 
-todo(id: String): Todo
+todo(id: String): Todo  
 {
   todo(id: "59520430-233b-11e8-be30-a7fcc3d2da82"){
     text
