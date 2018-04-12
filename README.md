@@ -1,7 +1,7 @@
 # graphql-react-todo
 Full stack Todo app using MongoDB, Mongoose ODM, Express, Apollo GraphQL Server, Apollo Client, and React
 
-SCHEMA : 
+### SCHEMA : 
 
 Todo {
   id: String
@@ -9,7 +9,7 @@ Todo {
   isComplete: Boolean
 }
 
-QUERIES : 
+### QUERIES : 
 
 todo(id: String): Todo
 {
