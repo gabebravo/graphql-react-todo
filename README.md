@@ -85,3 +85,7 @@ mutation {
   }
 }
 
+.bablerc
+{
+  "presets": ["env"]
+}
